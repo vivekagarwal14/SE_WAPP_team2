@@ -69,7 +69,9 @@ The objective here is to design a fully functional banking application which is 
 ## Data Operations
 1. The application is a basic level banking system  that consists of user/ customer details and money transactions between various users. Dummy data will be created for a certain number of customers. Different database options that are likely to be used can be Mysql, Mongo, Postgres etc. Fields that wil b egenerated have been listed above in the server side collection. 
 2. To start with, we will create the application with dummy data. We will create a login page for user authentication. that will enable for user creation. The data operations will include account management activities like money transfer between different users, balance statement enquiries by the user, creating monthly statements for the user. The data flow between the app and server indicating the data operations is depicted below in the diagram: -
-![Data Operations online Banking drawio](https://user-images.githubusercontent.com/86423179/155612185-d9a91f93-52ff-4b25-811d-7d0f49373ce8.svg)
+
+![Data Operations online Banking drawio](https://user-images.githubusercontent.com/86423179/155613442-7e809ff9-3188-49ac-9393-0c29301b2342.svg)
+
 3. As seen above in the diagram, the user interacts with the webpage for authentication, login purposes, bank tranasction etc. The request is sent via a web server to the application server where it holds the authetication, custmer accounts data. In real scenario, a financial server will be provided seperately for restricting access to financial services. In this application we will not be developing a seperate financial server that will render the money tranactions/ transfers with other banks. 
 4. The Techstack used will be -  for Frontend: Javascript, HTML, CSS; Database: MySQL and BACKEND: Javascript, PHP
 
