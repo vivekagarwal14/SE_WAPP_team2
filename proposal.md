@@ -67,4 +67,19 @@ The objective here is to design a fully functional banking application which is 
 
  
 ## Data Operations
+1. The application is a basic level banking system  that consists of user/ customer details and money transactions between various users. Dummy data will be created for a certain number of customers. Different database options that are likely to be used can be Mysql, Mongo, Postgres etc. Fields that wil b egenerated have been listed above in the server side collection. 
+2. To start with, we will create the application with dummy data. We will create a login page for user authentication. that will enable for user creation. The data operations will include account management activities like money transfer between different users, balance statement enquiries, . 
+3. The Techstack used will be -  for Frontend: Javascript, HTML, CSS; Database: MySQL and BACKEND: Javascript, PHP
+
+
+
+## Use Case Diagram 
+![Online_banking drawio](https://user-images.githubusercontent.com/86423179/155601866-a48ee95c-7d21-40ad-ad72-99d5d0d36453.svg)
+
+
+## Business Rules and Policies
+1. The customer will be required to maintain a minimum balance of $100 to maintain the account. 
+2. All internal transfers/ money transactions are free of any charges. 
+3. Money transactions with other banks will be levied with 1.5% handling charges.
+4. a one time insufficient funds fee will be levied on overdrafts. The additional aount will be treated as a credit card loan and an interest rate of 12.5%.
 
