@@ -23,6 +23,7 @@ The objective here is to design a fully functional banking application which is 
    4. Email
    5. Phone number
    6. Password
+   7. customer_address
    
 2. Account details - This is used to store the account details of the customer 
    1. account_uuid
@@ -31,6 +32,7 @@ The objective here is to design a fully functional banking application which is 
    4. routing number
    5. total balance
    6. customer_uuid
+   7. account_type
    
 3. Transaction History - This is used to store the transaction details of the customer
    1. transaction_uuid
@@ -48,7 +50,8 @@ The objective here is to design a fully functional banking application which is 
    4. transaction amount
    5. customer_uuid
    6. account_uuid
-   
+   7. remaining_balance
+ 
 ## List of operations
 |Action | Supported data collection  | CRUD operation to be performed |
 |----------------------|--------------|--------------------------|
