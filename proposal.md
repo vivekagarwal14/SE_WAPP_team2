@@ -66,6 +66,5 @@ The objective here is to design a fully functional banking application which is 
 | 1.| 
 
  
-
-Data Operations
+## Data Operations
 
