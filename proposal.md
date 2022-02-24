@@ -1,4 +1,4 @@
-## Software Engineering for web applications
+# Software Engineering for web applications
 
 **Project Name:** Online Bank Account software
 
@@ -10,7 +10,7 @@
 3. Sahib Arora (sahib.arora@rutgers.edu)
 4. Rohit Goyal (rg1025@scarletmail.rutgers.edu)
 
-#Proposal
+## Proposal
 
 ## Objective 
 The objective here is to design a fully functional banking application which is customer-centric. This application will offer REST-based for integration with clients.
