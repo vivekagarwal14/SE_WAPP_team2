@@ -1,5 +1,4 @@
-Online Bank Account software
-## Software Engineering for web applications
+###Software Engineering for web applications
 
 **Project Name:** Online Bank Account software
 
@@ -12,17 +11,11 @@ Online Bank Account software
 4. Rohit Goyal (rg1025@scarletmail.rutgers.edu)
 
 #Proposal
+
 ## Objective 
 The objective here is to design a fully functional banking application which is customer-centric. This application will offer REST-based for integration with clients.
 
-Team 2. 
 ## Server side Data Collection
-
-Team members: 
-  1. Khyati Dinesh Patel kp935@scarletmail.rutgers.edu
-  2. Vivek Kumar Agarwal vka13@scarletmail.rutgers.edu
-  3. Sahib Arora sahib.arora@rutgers.edu
-  4. Rohit Goyal rg1025@scarletmail.rutgers.edu
 1. Customer Data - This is used to store customer's information. Each customer will have a unique identifier which can be used track particular transaction
    1. customer_uuid
    2. First name of customer
@@ -55,9 +48,7 @@ Team members:
    4. transaction amount
    5. customer_uuid
    6. account_uuid
-
-Proposal 
-Objective 
+   
 ## List of operations
 |Action | Supported data collection  | CRUD operation to be performed |
 |----------------------|--------------|--------------------------|
@@ -68,7 +59,7 @@ Objective
 |5. List all transaction | 3. Transaction history| READ|
 |6. Request Statement generation | 3. Transaction history | READ|
 
-The aim of the project is 
+ 
 ## Objective of the application 
 |Objective number| Objective| Task | Scope of the task | Order of Execution| Module|  Data used|
 |----------|-----------|---------|-----------|--------|-----------|-----------|
