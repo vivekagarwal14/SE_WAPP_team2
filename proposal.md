@@ -63,12 +63,6 @@ The objective here is to design a fully functional banking application which is 
 |6. Request Statement generation | 3. Transaction history | READ|
 
  
-## Objective of the application 
-|Objective number| Objective| Task | Scope of the task | Order of Execution| Module|  Data used|
-|----------|-----------|---------|-----------|--------|-----------|-----------|
-| 1.| 
-
- 
 ## Data Operations
 1. The application is a basic level banking system  that consists of user/ customer details and money transactions between various users. Dummy data will be created for a certain number of customers. Different database options that are likely to be used can be Mysql, Mongo, Postgres etc. Fields that wil b egenerated have been listed above in the server side collection. 
 2. To start with, we will create the application with dummy data. We will create a login page for user authentication. that will enable for user creation. The data operations will include account management activities like money transfer between different users, balance statement enquiries by the user, creating monthly statements for the user. The data flow between the app and server indicating the data operations is depicted below in the diagram: -
