@@ -55,11 +55,11 @@ The objective here is to design a fully functional banking application which is 
 ## List of operations
 |Action | Supported data collection  | CRUD operation to be performed |
 |----------------------|--------------|--------------------------|
-|1. User Authentication | 1. Customer data| READ & WRITE|
-|2. Save account details | 2.Account details| CREATE|
-|3. Initiate transaction | 4. Live Transaction | CREATE|
-|4. Transaction Conformation | 4. Live Transaction | UPDATE|
-|5. List all transaction | 3. Transaction history| READ|
+|1. User Authentication | 1.Customer data| READ & WRITE|
+|2. Save account details | 1.Customer data 2.Account details| CREATE|
+|3. Initiate transaction | 1. Customer data 2. Account details 4. Live Transaction | CREATE|
+|4. Transaction Conformation | 4. Live Transaction | UPDATE & READ|
+|5. List all transaction | 2. Account details 3. Transaction history| READ|
 |6. Request Statement generation | 3. Transaction history | READ|
 
  
