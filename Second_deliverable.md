@@ -89,4 +89,6 @@ Need to expand on All Details - generic term - By Sahib and Rohit
 
 ##### Explaination
 
-By Sahib and Rohit
+Whenever a User tries creting an account, API sends a request to the system which in turn sends the request back to the user. Hence, the account is created.
+
+
