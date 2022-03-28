@@ -17,13 +17,14 @@ Queries from Khyati
 
 ### API Specification Table
 
+![API Table](https://user-images.githubusercontent.com/86423179/160429550-6e11f841-50b1-47f2-b68a-25b4db35e330.png)
 
 
-By Sahib and Rohit
+Need to expand on All Details - generic term - By Sahib and Rohit
 
 
 
 
-##### Explaination/ Salient Features
+##### Explaination
 
 By Sahib and Rohit
