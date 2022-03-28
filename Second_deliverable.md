@@ -8,6 +8,8 @@ The entity relationship diagram as shown below explain the online banking system
 
 
 
+![ER_diagram_banking_software drawio](https://user-images.githubusercontent.com/86423179/160428576-1156befe-535b-4b20-a2f2-f3b73a4dd693.svg)
+
 
 
 
