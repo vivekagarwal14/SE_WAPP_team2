@@ -89,6 +89,10 @@ Need to expand on All Details - generic term - By Sahib and Rohit
 
 ##### Explaination
 
-Whenever a User tries creting an account, API sends a request to the system which in turn sends the request back to the user. Hence, the account is created.
+account_creation - Whenever a User tries creating an account, API sends a request to the system which in turn sends the request back to the user. Hence, the account is created.
+
+user_transaction - When a user tries to perform a transaction, system returns the api call back to user confirming the transaction has been processed.
+
+
 
 
