@@ -82,10 +82,6 @@ FOREIGN KEY(account_id) REFERENCES account(account_id)
 ![API Table](https://user-images.githubusercontent.com/86423179/160429550-6e11f841-50b1-47f2-b68a-25b4db35e330.png)
 
 
-Need to expand on All Details - generic term - only by Sahib
-
-
-
 
 ##### Explaination
 
