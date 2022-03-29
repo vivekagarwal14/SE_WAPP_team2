@@ -89,6 +89,6 @@ account_creation - Whenever a User tries creating an account, API sends a reques
 
 user_transaction - When a user tries to perform a transaction, system returns the api call back to user confirming the transaction has been processed.
 
-
+all details - user_transaction, user_account, user_age, transaction_amount etc.
 
 
