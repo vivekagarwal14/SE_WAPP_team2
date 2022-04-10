@@ -75,18 +75,16 @@ FOREIGN KEY(account_id) REFERENCES account(account_id)
 ##### );
 
 
-
-
 ### API Specification Table
 
 ![API Table](https://user-images.githubusercontent.com/86423179/160429550-6e11f841-50b1-47f2-b68a-25b4db35e330.png)
 
-
-Need to expand on All Details - generic term - By Sahib and Rohit
-
-
-
-
 ##### Explaination
 
-By Sahib and Rohit
+account_creation - Whenever a User tries creating an account, API sends a request to the system which in turn sends the request back to the user. Hence, the account is created.
+
+user_transaction - When a user tries to perform a transaction, system returns the api call back to user confirming the transaction has been processed.
+
+all details - user_transaction, user_account, user_age, transaction_amount etc.
+
+
