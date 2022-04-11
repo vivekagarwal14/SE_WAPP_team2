@@ -27,7 +27,29 @@ const createUser = (request, response) => {
   })
 }
 
+const updateUser = (request, response) => {
+  const {first_name, last_name, email, password} = request.body
+
+  pool.query('UPDATE bank_user SET last_name = &1, email = &2, password = $3 WHERE first_name = $4', [last_name, email, password, first_name], (error, results) => {
+    if (error) {
+      throw error
+    }
+    response.status(201).send(`User updated`)
+  })
+}
+const deleteUser = (request, response) => {
+  const {first_name} = request.body
+
+  pool.query('DELETE FROM bank_user WHERE first_name = $1', [first_name], (error, results) => {
+    if (error) {
+      throw error
+    }
+    response.status(201).send(`User deleted`)
+  })
+}
 module.exports = {
   getUsers,
   createUser,
+  updateUser,
+  deleteUser
 }
