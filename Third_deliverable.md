@@ -40,3 +40,4 @@ To test our POST, PUT, and DELETE requests, use curl terminal command. For examp
 
 ````curl --data "name=vivek&email=vivek@example.com" ````
 
+! image SE_WAPP_team2/Screen Shot 2022-04-11 at 9.26.01 PM.png
