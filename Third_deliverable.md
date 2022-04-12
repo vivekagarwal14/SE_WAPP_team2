@@ -1,6 +1,6 @@
 ## Introduction 
 
-The API provides four basic functionalities, i.e., create, read, update and delete. The four methods ised in the REST environment are GET, POST, PUT, DELETE. 
+The API provides four basic functionalities, i.e., create, read, update and delete. The four methods used in the REST environment are GET, POST, PUT, DELETE. 
 
 ### Creating PostgreSQL database
 
