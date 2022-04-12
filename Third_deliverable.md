@@ -43,3 +43,5 @@ To test our POST, PUT, and DELETE requests, use curl terminal command. For examp
 ### Implementing Server‐side Routing of HTTP Requests to APIs
 
 <img width="1276" alt="Screen Shot 2022-04-11 at 9 26 01 PM" src="https://user-images.githubusercontent.com/100319800/162861986-d853d841-0224-4ffa-970f-8b09e68c221f.png">
+
+Data is recieved at the bank's url and is sent to the customers where they have three choices(GET, POST, PUT) where a customer account can be created, some data can be updated.
