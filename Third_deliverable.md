@@ -23,8 +23,8 @@ Create a database with the SQL command.
 
 To set up a Node.js app and Express.js server, create a directory for the project to live in.
 
-````mkdir node-api-postgres
-cd node-api-postgres````
+````mkdir node-api-postgres````
+````cd node-api-postgres````
 
 install Express.js for the server and node-postgres (pg) to connect to PostgreSQL.
 
