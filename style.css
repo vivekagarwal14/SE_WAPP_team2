@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+input {
+    text-align: center;
+  }
+  
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+.cointainer{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+}
+.border{
+    border: 1px solid black;
+}
+#Loginform{
+    align-items: right;
+}
+#username-field{
+    width: 20rem;
+    height: 2rem;
+}
+#password-field{
+    width: 20rem;
+    height: 2rem;
+}
+input[type=submit] {
+    height: 1000rem;
+    width: 7rem;
+  }
+.btn-s{
+    text-align: center;
+}
+#login-form-submit:hover{
+    cursor: pointer;
+}
+.CreateAccount{
+    text-align: center;
+    padding: 5%;
+}
